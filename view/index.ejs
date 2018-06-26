@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hunda</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="/images/logo.png" alt="Logo Hunda">
+            <h1>Hunda</h1>
+        </div>
+        <nav class="mainNav">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">HOND ZOEKEN</a></li>
+                <li><a href="">HOND TOEVOEGEN</a></li>
+            </ul>
+        </nav>
+        <a href="login.ejs"><img src="/images/blackLogin.png" alt="Login"></a>
+    </header>
+    <main class="homeMain">
+        <div class="bannerImg">
+            <img src="/images/animal-canine-close-up-733416.jpg" alt="">
+        </div>
+        <div class="searchbar">
+            <h2>Begin met zoeken</h2>
+            <form action="">
+                <label for="country">land van herkomst</label>
+                <select name="country" id="country">
+                    <option value="spanje">Spanje</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="griekenland">Griekenland</option>
+                </select>
+                <label for="breed">ras</label>
+                <select name="breed" id="breed">
+                    <option value="dogachtigen en berghonden">Dogachtigen en berghonden</option>
+                    <option value="grote jachthonden en retrievers">Grote jachthonden en retrievers</option>
+                    <option value="herdershonden (mechels, duits, etc.)">Herdershonden (mechels, duits, etc.)</option>
+                    <option value="keeshonden, pool- en sleehonden">Keeshonden, pool- en sleehonden</option>
+                    <option value="kleine gezelschapshonden">Kleine gezelschapshonden</option>
+                    <option value="kleine jachthonden en spanielachtigen">Kleine jachthonden en spanielachtigen</option>
+                    <option value="terriërs">Terriërs</option>
+                    <option value="eindhonden">Windhonden</option>
+                    <option value="helemaal onherleidbaar bastaard">Helemaal onherleidbaar bastaard</option>
+                    <option value="onbekend">Onbekend</option>
+                </select>
+                <label for="age">leeftijd</label>
+                <select name="age" id="age">
+                    <option value="onbekend">Onbekend</option>
+                    <option value="jonger dan 1 jaar">Jonger dan 1 jaar</option>
+                    <option value="1 tot 3 jaar">1 tot 3 jaar</option>
+                    <option value="4 tot 8 jaar">4 tot 8 jaar</option>
+                    <option value="9 jaar of ouder">9 jaar of ouder</option>
+                </select>
+                <input type="submit" value="zoek">
+            </form>
+        </div>
+        <div>
+            <h2>Steun de organisaties met een donatie</h2>
+            <button>doneer</button>
+        </div>
+        <div>
+            <h3>Met succes geplaatst</h3>
+            <img src="/images/adorable-animal-breed-351406.jpg" alt="">
+        </div>
+    </main>
+</body>
+
+</html>
